@@ -88,24 +88,195 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Skills Preview */}
+      {/* Professional Experience - F1 Style */}
       <section className="py-20 bg-slate-800/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
-              Engineering Excellence
+              <span className="bg-gradient-to-r from-red-600 to-yellow-500 bg-clip-text text-transparent">
+                Racing Career
+              </span>
+            </h2>
+            <p className="text-slate-300 text-lg">
+              High-performance engineering track record with precision and reliability
+            </p>
+          </div>
+          
+          {/* Experience Timeline */}
+          <div className="space-y-8">
+            {/* Current Role */}
+            <div className="bg-slate-800/50 backdrop-blur-sm rounded-lg p-8 border border-slate-700 hover:border-red-500/50 transition-colors">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                <div>
+                  <h3 className="text-2xl font-bold text-white mb-2">Senior Software Engineer</h3>
+                  <p className="text-yellow-400 font-semibold">Current Position</p>
+                </div>
+                <div className="text-slate-400 text-sm mt-2 md:mt-0">
+                  <span className="bg-green-500/20 text-green-400 px-3 py-1 rounded-full text-xs font-semibold border border-green-500/30">
+                    ACTIVE
+                  </span>
+                </div>
+              </div>
+              <p className="text-slate-300 leading-relaxed mb-4">
+                Leading high-performance software development with focus on system reliability, 
+                real-time data processing, and scalable architecture. Specializing in C# backend 
+                development, Python automation, and cloud infrastructure.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {['C#', 'Python', 'Docker', 'Kubernetes', 'Azure', 'DevOps'].map((tech) => (
+                  <span key={tech} className="px-3 py-1 bg-slate-700/50 text-slate-300 text-sm rounded border border-slate-600">
+                    {tech}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Previous Experience */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="bg-slate-800/50 backdrop-blur-sm rounded-lg p-6 border border-slate-700 hover:border-yellow-500/50 transition-colors">
+                <h4 className="text-xl font-bold text-white mb-2">Software Engineer</h4>
+                <p className="text-slate-400 text-sm mb-3">Previous Role</p>
+                <p className="text-slate-300 text-sm leading-relaxed mb-4">
+                  Developed and maintained enterprise applications with focus on performance 
+                  optimization and data visualization.
+                </p>
+                <div className="flex flex-wrap gap-1">
+                  {['ASP.NET', 'SQL Server', 'React', 'JavaScript'].map((tech) => (
+                    <span key={tech} className="px-2 py-1 bg-slate-700/50 text-slate-300 text-xs rounded">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
+              <div className="bg-slate-800/50 backdrop-blur-sm rounded-lg p-6 border border-slate-700 hover:border-yellow-500/50 transition-colors">
+                <h4 className="text-xl font-bold text-white mb-2">Full Stack Developer</h4>
+                <p className="text-slate-400 text-sm mb-3">Previous Role</p>
+                <p className="text-slate-300 text-sm leading-relaxed mb-4">
+                  Built end-to-end solutions with emphasis on user experience and system 
+                  integration.
+                </p>
+                <div className="flex flex-wrap gap-1">
+                  {['Node.js', 'PostgreSQL', 'Vue.js', 'AWS'].map((tech) => (
+                    <span key={tech} className="px-2 py-1 bg-slate-700/50 text-slate-300 text-xs rounded">
+                      {tech}
+                    </span>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Performance Metrics - F1 Style */}
+      <section className="py-20 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              <span className="bg-gradient-to-r from-red-600 to-yellow-500 bg-clip-text text-transparent">
+                Performance Metrics
+              </span>
+            </h2>
+            <p className="text-slate-300 text-lg">
+              Engineering achievements and system performance indicators
+            </p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {/* System Reliability */}
+            <div className="bg-slate-800/50 backdrop-blur-sm rounded-lg p-6 border border-slate-700 text-center">
+              <div className="text-4xl font-bold text-green-400 mb-2">99.9%</div>
+              <div className="text-slate-300 font-semibold mb-2">System Uptime</div>
+              <div className="text-slate-400 text-sm">Enterprise-grade reliability</div>
+            </div>
+
+            {/* Response Time */}
+            <div className="bg-slate-800/50 backdrop-blur-sm rounded-lg p-6 border border-slate-700 text-center">
+              <div className="text-4xl font-bold text-yellow-400 mb-2">&lt;50ms</div>
+              <div className="text-slate-300 font-semibold mb-2">Response Time</div>
+              <div className="text-slate-400 text-sm">Sub-millisecond precision</div>
+            </div>
+
+            {/* Data Processing */}
+            <div className="bg-slate-800/50 backdrop-blur-sm rounded-lg p-6 border border-slate-700 text-center">
+              <div className="text-4xl font-bold text-red-400 mb-2">10K+</div>
+              <div className="text-slate-300 font-semibold mb-2">Data Points/sec</div>
+              <div className="text-slate-400 text-sm">Real-time processing</div>
+            </div>
+
+            {/* Projects Delivered */}
+            <div className="bg-slate-800/50 backdrop-blur-sm rounded-lg p-6 border border-slate-700 text-center">
+              <div className="text-4xl font-bold text-blue-400 mb-2">50+</div>
+              <div className="text-slate-300 font-semibold mb-2">Projects</div>
+              <div className="text-slate-400 text-sm">Successfully delivered</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Technical Skills - F1 Style */}
+      <section className="py-20 bg-slate-800/30">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              <span className="bg-gradient-to-r from-red-600 to-yellow-500 bg-clip-text text-transparent">
+                Engineering Arsenal
+              </span>
             </h2>
             <p className="text-slate-300 text-lg">
               Technologies and methodologies that power high-performance systems
             </p>
           </div>
           
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {['C#', 'Python', 'Docker', 'Kubernetes', 'DevOps', 'Data Visualization', 'Next.js', 'TypeScript'].map((skill) => (
-              <div key={skill} className="bg-slate-800/50 backdrop-blur-sm rounded-lg p-4 text-center border border-slate-700 hover:border-yellow-500/50 transition-colors">
-                <div className="text-white font-semibold">{skill}</div>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Backend Engineering */}
+            <div className="bg-slate-800/50 backdrop-blur-sm rounded-lg p-6 border border-slate-700">
+              <div className="text-2xl mb-4">⚙️</div>
+              <h3 className="text-xl font-bold text-white mb-4">Backend Engineering</h3>
+              <div className="space-y-2">
+                {['C#', 'Python', 'Node.js', 'ASP.NET Core', 'FastAPI', 'REST APIs'].map((skill) => (
+                  <div key={skill} className="flex items-center justify-between">
+                    <span className="text-slate-300">{skill}</span>
+                    <div className="w-16 bg-slate-700 rounded-full h-2">
+                      <div className="bg-gradient-to-r from-red-600 to-yellow-500 h-2 rounded-full" style={{width: '90%'}}></div>
+                    </div>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
+
+            {/* DevOps & Infrastructure */}
+            <div className="bg-slate-800/50 backdrop-blur-sm rounded-lg p-6 border border-slate-700">
+              <div className="text-2xl mb-4">🚀</div>
+              <h3 className="text-xl font-bold text-white mb-4">DevOps & Infrastructure</h3>
+              <div className="space-y-2">
+                {['Docker', 'Kubernetes', 'Azure', 'AWS', 'Jenkins', 'Terraform'].map((skill) => (
+                  <div key={skill} className="flex items-center justify-between">
+                    <span className="text-slate-300">{skill}</span>
+                    <div className="w-16 bg-slate-700 rounded-full h-2">
+                      <div className="bg-gradient-to-r from-red-600 to-yellow-500 h-2 rounded-full" style={{width: '85%'}}></div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* Data & Analytics */}
+            <div className="bg-slate-800/50 backdrop-blur-sm rounded-lg p-6 border border-slate-700">
+              <div className="text-2xl mb-4">📊</div>
+              <h3 className="text-xl font-bold text-white mb-4">Data & Analytics</h3>
+              <div className="space-y-2">
+                {['PostgreSQL', 'Redis', 'Kafka', 'Prometheus', 'Grafana', 'Data Visualization'].map((skill) => (
+                  <div key={skill} className="flex items-center justify-between">
+                    <span className="text-slate-300">{skill}</span>
+                    <div className="w-16 bg-slate-700 rounded-full h-2">
+                      <div className="bg-gradient-to-r from-red-600 to-yellow-500 h-2 rounded-full" style={{width: '80%'}}></div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
