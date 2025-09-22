@@ -43,7 +43,7 @@ export default function Footer() {
 
         <div className="mt-8 pt-8 border-t border-slate-800 text-center">
           <p className="text-slate-400 text-sm">
-            © 2024 Kevin D'Souza. Built with Next.js and inspired by Red Bull Racing.
+            © 2024 Kevin D&apos;Souza. Built with Next.js and inspired by Red Bull Racing.
           </p>
         </div>
       </div>

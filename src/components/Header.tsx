@@ -21,7 +21,7 @@ export default function Header() {
             <div className="w-8 h-8 bg-gradient-to-br from-red-600 to-yellow-500 rounded-sm flex items-center justify-center">
               <span className="text-white font-bold text-sm">KD</span>
             </div>
-            <span className="text-white font-semibold text-lg">Kevin D'Souza</span>
+            <span className="text-white font-semibold text-lg">Kevin D&apos;Souza</span>
           </Link>
 
           {/* Navigation */}

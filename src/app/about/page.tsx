@@ -18,7 +18,7 @@ export default function About() {
             <div>
               <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
                 <span className="bg-gradient-to-r from-red-600 to-yellow-500 bg-clip-text text-transparent">
-                  Kevin D'Souza
+                  Kevin D&apos;Souza
                 </span>
               </h1>
               <h2 className="text-2xl md:text-3xl text-slate-300 mb-8">
@@ -79,7 +79,7 @@ export default function About() {
               real-time data processing, and creating intuitive interfaces for complex data.
             </p>
             <p className="text-slate-300 text-lg leading-relaxed">
-              When I'm not coding, you'll find me analyzing F1 telemetry data, studying race strategies, 
+              When I&apos;m not coding, you&apos;ll find me analyzing F1 telemetry data, studying race strategies, 
               or exploring the latest developments in motorsport technology. This passion drives my 
               commitment to building software that performs at the highest level.
             </p>
@@ -133,7 +133,7 @@ export default function About() {
               <div className="text-4xl mb-4">🏁</div>
               <h3 className="text-2xl font-bold text-white mb-4">Formula 1 Technology</h3>
               <p className="text-slate-300 leading-relaxed mb-6">
-                I'm fascinated by the cutting-edge technology in Formula 1 - from telemetry systems 
+                I&apos;m fascinated by the cutting-edge technology in Formula 1 - from telemetry systems 
                 that process thousands of data points per second to the precision engineering that 
                 goes into every component. This passion translates directly into my software work.
               </p>
@@ -165,7 +165,7 @@ export default function About() {
           {/* Call to Action */}
           <div className="text-center mt-12">
             <p className="text-slate-300 text-lg mb-6">
-              Let's discuss how we can apply F1-level precision to your next software project
+              Let&apos;s discuss how we can apply F1-level precision to your next software project
             </p>
             <a
               href="mailto:kevin@example.com"

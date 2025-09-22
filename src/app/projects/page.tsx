@@ -135,7 +135,7 @@ export default function Projects() {
             Ready to Collaborate?
           </h2>
           <p className="text-slate-300 text-lg mb-8">
-            Let's build something extraordinary together, with the precision and performance of Formula 1 engineering.
+              Let&apos;s build something extraordinary together, with the precision and performance of Formula 1 engineering.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
